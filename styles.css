@@ -91,6 +91,7 @@ svg {
 .projects .col-lg {
     background-color: #eaf0ff;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .right {
@@ -169,6 +170,11 @@ a {
     font-size: 20px;
     margin-left: 10px;
 }
+
+.background {
+    background-color: white !important;
+}
+
 
 @media only screen and (max-width:980px) {
     .right {
