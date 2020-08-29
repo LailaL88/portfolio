@@ -1,204 +1,207 @@
 .navbar {
-    background-color: salmon !important;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+  background-color: salmon !important;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: rgb(193, 246, 255);
-    font-weight: bold;
+  color: rgb(193, 246, 255);
+  font-weight: bold;
 }
 
 .navbar .navbar-toggler {
-    outline: none;
-    background-color: #eaf0ff;
+  outline: none;
+  background-color: #eaf0ff;
 }
 
 .profile {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-image: url("img/keyboard.jpg");
-    background-size: 100%;
-    background-size: cover;
-    color: white;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("img/keyboard.jpg");
+  background-size: 100%;
+  background-size: cover;
+  color: white;
 }
 
 .profile:after {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(250, 128, 114, 0.8);
-    background-image: radial-gradient(salmon 33%, transparent 33%);
-    background-size: 4px 4px;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(250, 128, 114, 0.8);
+  background-image: radial-gradient(salmon 33%, transparent 33%);
+  background-size: 4px 4px;
 }
 
 .profile h1,
 .profile p {
-    z-index: 1;
-    padding: 0px 10px;
+  z-index: 1;
+  padding: 0px 10px;
 }
 
 h1 {
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: bold;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
 }
 
 p {
-    font-family: 'Caveat', cursive;
-    font-size: 26px;
+  font-family: "Caveat", cursive;
+  font-size: 26px;
 }
 
 .description {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 .top {
-    margin-top: 22px;
+  margin-top: 22px;
 }
 
 .projectName {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 svg {
-    margin: 0 auto;
-    position: absolute;
-    top: 87vh;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-    font-size: 40px;
-    z-index: 1;
+  margin: 0 auto;
+  position: absolute;
+  top: 87vh;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  font-size: 40px;
+  z-index: 1;
 }
 
 .projects {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 150px;
-    position: relative;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  position: relative;
 }
 
 .projects .col-lg {
-    background-color: #eaf0ff;
-    padding: 20px;
-    margin-top: 20px;
+  background-color: #eaf0ff;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .right {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .projects h1 {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .projects img {
-    width: 100%;
-    height: 180px;
+  width: 100%;
+  height: 180px;
 }
 
 .projects p {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .projects button {
-    background-color: salmon;
-    color: white;
-    outline: none;
-    padding: 10px 20px;
-    border: none;
-    text-transform: uppercase;
+  background-color: salmon;
+  color: white;
+  outline: none;
+  padding: 10px 20px;
+  border: none;
+  text-transform: uppercase;
 }
 
 .projects button:hover {
-    background-color: white;
-    color: salmon;
-    border: 1px solid salmon;
+  background-color: white;
+  color: salmon;
+  border: 1px solid salmon;
 }
 
 .contact {
-    background-color: #eaf0ff;
-    padding-bottom: 100px;
+  background-color: #eaf0ff;
+  padding-bottom: 100px;
 }
 
 .contact h1 {
-    padding-top: 100px;
-    padding-bottom: 60px;
-    text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 .info {
-    text-align: left;
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+  text-align: left;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 i {
-    font-size: 30px;
-    padding-bottom: 20px;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .info h4 {
-    text-align: left;
-    padding: 10px;
+  text-align: left;
+  padding: 10px;
 }
 
 .topline {
-    border-top: 1px solid black;
-    font-family: 'Caveat', cursive;
-    font-size: 35px;
+  border-top: 1px solid black;
+  font-family: "Caveat", cursive;
+  font-size: 35px;
 }
 
 a {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .fa-github {
-    padding: 0px;
-    font-size: 20px;
-    margin-left: 10px;
+  padding: 0px;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
-.background {
-    background-color: white !important;
+.border {
+  border: 1px solid black;
 }
 
-
-@media only screen and (max-width:980px) {
-    .right {
-        margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .contactInfo {
-        font-size: 15px;
-    }
-    .projects {
-        padding-top: 50px;
-        padding-bottom: 75px;
-    }
-    .projects h1 {
-        padding-bottom: 50px;
-    }
-    .contact h1 {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
+.marginTop {
+    margin-top: 70px;
 }
 
-@media only screen and (max-width:992px) and ( min-width:767px) {
-    .projects img {
-        height: 400px;
-    }
+@media only screen and (max-width: 980px) {
+  .right {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .contactInfo {
+    font-size: 15px;
+  }
+  .projects {
+    padding-top: 50px;
+    padding-bottom: 75px;
+  }
+  .projects h1 {
+    padding-bottom: 50px;
+  }
+  .contact h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+  .projects img {
+    height: 400px;
+  }
 }
