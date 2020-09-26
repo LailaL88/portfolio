@@ -179,6 +179,10 @@ a {
     margin-top: 70px;
 }
 
+.whitebg{
+  background-color: white!important;
+}
+
 @media only screen and (max-width: 980px) {
   .right {
     margin-right: 0px;
