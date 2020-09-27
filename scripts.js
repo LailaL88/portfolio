@@ -12,3 +12,13 @@ function smoothScroll2() {
     var element = document.querySelector(".contact");
     element.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
+
+function smoothScroll3() {
+  var element = document.querySelector(".about");
+  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function smoothScroll4() {
+  var element = document.querySelector(".skills");
+  element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}

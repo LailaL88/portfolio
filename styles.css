@@ -50,8 +50,27 @@
 h1 {
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
+.about h1, .skills h1{
+  padding: 90px 10px 70px 10px;
+}
+
+
+.skills{
+  padding-bottom: 30px;
+}
+.skills img {
+  height:100px;
+  padding:23px;
+}
+
+.skills div{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 p {
   font-family: "Caveat", cursive;
   font-size: 26px;

@@ -50,6 +50,12 @@
             <a class="nav-link" onclick="smoothScroll()" >Home</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" onclick="smoothScroll3()" >About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="smoothScroll4()" >Skills</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" onclick="smoothScroll1()">Projects</a>
           </li>
           <li class="nav-item">
@@ -66,12 +72,12 @@
       </div>
     </nav>
 
-    <section class="profile" id="profile">
+    <section class="profile">
       <h1>Hello, my name is Olga</h1>
       <p>Frontend development is my passion</p>
       <div>
         <svg
-          onclick="smoothScroll1()"
+          onclick="smoothScroll3()"
           class="bi bi-chevron-double-down"
           width="1em"
           height="1em"
@@ -90,7 +96,42 @@
         </svg>
       </div>
     </section>
-    <section class="projects" id="projects">
+    <section class="about" >
+      <div class="container">
+      <h1>About me</h1>
+      <p>At the moment I continew learning programming through self-study. I am a higly motivated person, capable to learn fast and in her own and with a great interest for programming. I speak, write and read in English and Latvian on a high level.
+        So far I have learned HTML5, CSS3, Bootstrap, responsive design, JavaScript, SASS, Chrome developer tools, basics of React and Git version control sistem. I have experience creating pixel-perfect webpages from Figma design files. Plus - I am a good person. </p>
+      </div>
+      </section>
+      <section class="skills">
+        
+          <h1>Skills</h1>
+          <div class="container">
+          <div >
+            <img src="./img/html.png" alt="html">
+          </div>
+          <div >
+            <img src="./img/css.png" alt="css">
+          </div>
+          <div >
+            <img src="./img/js.png" alt="js">
+          </div>
+          
+          <div >
+            <img src="./img/sass.png" alt="sass">
+          </div>
+          <div>
+            <img src="./img/git.png" alt="git">
+          </div>
+          <div >
+            <img src="./img/bootstrap.jpg" alt="bootstrap">
+          </div>
+          <div >
+            <img src="./img/figma.png" alt="figma">
+          </div>
+        </div>
+      </section>
+    <section class="projects">
       <h1>Projects</h1>
       <div class="container">
         <div class="row">
@@ -204,7 +245,7 @@
         </div>
       </div>
     </section>
-    <section class="contact"  id="contact">
+    <section class="contact">
       <h1>Contact</h1>
       <div class="container">
         <div class="info">
@@ -215,7 +256,7 @@
         <div class="info">
           <i class="fas fa-envelope"></i>
           <h4 class="topline">Email</h4>
-          <h4 class="contactInfo">olga_ze@gmail.com</h4>
+          <h4 class="contactInfo">olga_ze@inbox.lv</h4>
         </div>
       </div>
     </section>
