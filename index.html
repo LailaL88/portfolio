@@ -24,6 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
@@ -98,15 +99,15 @@
     </section>
     <section class="about" >
       <div class="container">
-      <h1>About me</h1>
+      <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">About me</h1>
       <p>At the moment I continew learning programming through self-study. I am a higly motivated person, capable to learn fast and on her own and with a great interest for programming. I speak, write and read in English and Latvian on a high level.
         So far I have learned HTML5, CSS3, Bootstrap, responsive design, JavaScript, SASS, Chrome developer tools, basics of React and Git version control sistem. I have experience creating pixel-perfect webpages from Figma design files. Plus - I am a good person. </p>
       </div>
       </section>
       <section class="skills">
         
-          <h1>Skills</h1>
-          <div class="container">
+          <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Skills</h1>
+          <div class="container" data-aos="slide-right" data-aos-duration="2000">
           <div >
             <img src="./img/html.png" alt="html">
           </div>
@@ -132,10 +133,10 @@
         </div>
       </section>
     <section class="projects">
-      <h1>Projects</h1>
+      <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Projects</h1>
       <div class="container">
         <div class="row">
-          <div class="col-lg right">
+          <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
             <p class="projectName">Flower shop</p>
             <a href="https://lailal88.github.io/flowers/"
               ><img src="img/shop.png" alt="flowershop"
@@ -150,7 +151,7 @@
               ><button>View code</button></a
             >
           </div>
-          <div class="col-lg right">
+          <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
             <p class="projectName">TicTacToe</p>
             <a href="https://lailal88.github.io/tictactoe/"
               ><img src="img/tictactoe.png" alt="tictactoe"
@@ -165,7 +166,7 @@
               ><button class="top">View code</button></a
             >
           </div>
-          <div class="col-lg thirdCol">
+          <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
             <p class="projectName">Bubble Shooter</p>
             <a href="https://lailal88.github.io/bubble/"
               ><img src="img/bubble.png" alt="bubble shooter"
@@ -181,7 +182,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg right">
+          <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
             <p class="projectName">Conquer</p>
             <a href="https://lailal88.github.io/conquer/"
               ><img src="img/conquer_.png" alt="quiz"
@@ -193,7 +194,7 @@
               ><button class="marginTop">View code</button></a
             >
           </div>
-          <div class="col-lg right columnFour">
+          <div class="col-lg right columnFour" data-aos="zoom-in" data-aos-duration="800">
             <p class="projectName">Front-end programming quiz</p>
             <a href="https://lailal88.github.io/quiz/"
               ><img src="img/quiz.png" alt="quiz"
@@ -208,7 +209,7 @@
               ><button class="top">View code</button></a
             >
           </div>
-          <div class="col-lg thirdCol">
+          <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
             <p class="projectName">Victory restaurant</p>
             <a href="https://lailal88.github.io/restaurant/"
               ><img src="img/restaurant_.png" alt="quiz" class="border"
@@ -226,7 +227,7 @@
         <div class="row">
           <div class="col-lg right whitebg">
           </div>
-          <div class="col-lg right columnFour">
+          <div class="col-lg right columnFour" data-aos="zoom-in" data-aos-duration="800">
             <p class="projectName">Sparcle</p>
             <a href="https://lailal88.github.io/sparcle/"
               ><img src="img/sparcle.png" alt="sparcle"
@@ -246,7 +247,7 @@
       </div>
     </section>
     <section class="contact">
-      <h1>Contact</h1>
+      <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Contact</h1>
       <div class="container">
         <div class="info">
           <i class="fas fa-phone"></i>
@@ -279,5 +280,9 @@
       src="https://kit.fontawesome.com/61c651c0ef.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
