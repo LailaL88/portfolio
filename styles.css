@@ -92,10 +92,7 @@ p {
 .description {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-}
-
-.top {
-  margin-top: 22px;
+  flex-grow: 1;
 }
 
 .projectName {
@@ -115,7 +112,6 @@ svg {
 
 .projects {
   text-align: center;
-  padding-top: 100px;
   padding-bottom: 150px;
   position: relative;
 }
@@ -124,6 +120,8 @@ svg {
   background-color: #eaf0ff;
   padding: 20px;
   margin-top: 20px;
+  display:flex;
+  flex-direction: column;
 }
 
 .right {
@@ -131,6 +129,7 @@ svg {
 }
 
 .projects h1 {
+  padding-top: 100px;
   padding-bottom: 60px;
 }
 
@@ -160,11 +159,12 @@ svg {
 
 .contact {
   background-color: #eaf0ff;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .contact h1 {
-  padding-top: 100px;
+  
   padding-bottom: 60px;
   text-align: center;
 }
