@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 550px){
   .profile {
-    background-position: center center;
+    background-position: center;
     background-size:300%;
   }
 }
