@@ -27,6 +27,13 @@
   color: white;
 }
 
+@media only screen and (max-width: 550px){
+  .profile {
+    background-position: center center;
+    background-size:300%;
+  }
+}
+
 .profile:after {
   content: "";
   display: block;
