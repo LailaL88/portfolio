@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url("img/keyboard.jpg");
+  background-image: url("./img/keyboard.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
