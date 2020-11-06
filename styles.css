@@ -248,3 +248,13 @@ a {
     top: 75vh;
   }
 }
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content input,  .form-content textarea{
+margin: 5px;
+padding: 10px;
+}
