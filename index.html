@@ -1,290 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="format-detection" content="telephone=no" />
-    <title>My portfolio</title>
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" onclick="smoothScroll()" >Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="smoothScroll3()" >About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="smoothScroll4()" >Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="smoothScroll1()">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" onclick="smoothScroll2()">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://github.com/LailaL88?tab=repositories"
-              >Github<i class="fab fa-github"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>My portfolio</title>
+  <script type="text/javascript" src="scripts.js"></script>
+</head>
 
-    <section class="profile">
-      <h1>Hello, my name is Olga</h1>
-      <p>Frontend development is my passion</p>
-      <div>
-        <svg
-          onclick="smoothScroll3()"
-          class="bi bi-chevron-double-down"
-          width="1em"
-          height="1em"
-          viewBox="0 0 16 16"
-          fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-          />
-          <path
-            fill-rule="evenodd"
-            d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-          />
-        </svg>
-      </div>
-    </section>
-    <section class="about" >
-      <div class="container">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" onclick="smoothScroll()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="smoothScroll3()">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="smoothScroll4()">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="smoothScroll1()">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="smoothScroll2()">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/LailaL88?tab=repositories">Github<i
+              class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="profile">
+    <h1>Hello, my name is Olga</h1>
+    <p>Frontend development is my passion</p>
+    <div>
+      <svg onclick="smoothScroll3()" class="bi bi-chevron-double-down" width="1em" height="1em" viewBox="0 0 16 16"
+        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+        <path fill-rule="evenodd"
+          d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+      </svg>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
       <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">About me</h1>
-      <p>At the moment I am doing internship as a front-end developer at Piere.lv. I am a higly motivated person, capable to learn fast and on her own and with a great interest for programming. I speak, write and read in English and Latvian at a high level.
-        So far I have learned HTML5, CSS3, Bootstrap, responsive design, JavaScript, SASS, Chrome developer tools, Perfect Pixel, basics of React and Git version control sistem. I have experience creating pixel-perfect webpages from Figma design files. Plus - I am a good person. </p>
-      </div>
-      </section>
-      <section class="skills">
-        
-          <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Skills</h1>
-          <div class="container skill-container" data-aos="slide-right" data-aos-duration="2000">
-          <div class="skill">
-            <div class="skill-wrap">
-            <img src="./img/html.svg" alt="html">
-            <p class="skill-name">HTML5</p>
-          </div>
-          </div>
-          <div class="skill">
-            <div class="skill-wrap">
-            <img src="./img/css.svg" alt="css">
-            <p class="skill-name">CSS3</p>
-          </div>
-          </div>
-          <div class="skill">
-            <div class="skill-wrap">
-            <img src="./img/js.svg" alt="js">
-            <p class="skill-name">JavaScript</p>
-          </div>
-          </div>
-          
-          <div class="skill">
-            <div class="skill-wrap">
-            <img src="./img/sass.svg" alt="sass">
-            <p class="skill-name">SASS</p>
-          </div>
-          </div>
-          <div>
-            <div class="skill-wrap">
-            <img src="./img/git.png" alt="git">
-            <p class="skill-name">Git</p>
-          </div>
-          </div>
-          <div >
-            <div class="skill-wrap">
-            <img src="./img/bootstrap.svg" alt="bootstrap">
-            
-            <p class="skill-name">Bootstrap</p>
-            </div>
-          </div>
-          <div >
-            <div class="skill-wrap">
-            <img src="./img/figma.png" alt="figma">
-            <p class="skill-name">Figma</p>
-          </div>
-          </div>
-        </div>
-      </section>
-    <section class="projects">
-      <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Projects</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
-            <p class="projectName">Flower shop</p>
-            <a href="https://lailal88.github.io/flowers/"
-              ><img src="img/shop.png" alt="flowershop"
-            /></a>
-            <p class="description">
-              Webpage of a flower shop. You can sort available flowers by color
-              and type, click on the flower to see it's description and order
-              it. I used HTML and CSS for the layout and JavaScript for
-              filtering and decreasing the quantity in stock.
-            </p>
-            <a href="https://github.com/LailaL88/flowers/blob/master/scripts.js"
-              ><button>View code</button></a
-            >
-          </div>
-          <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
-            <p class="projectName">TicTacToe</p>
-            <a href="https://lailal88.github.io/tictactoe/"
-              ><img src="img/tictactoe.png" alt="tictactoe"
-            /></a>
-            <p class="description">
-              Game that probably everyone has played at least once. Click on the
-              cell to add X or O. Made with JavaScript, HTML and CSS. You can
-              play as many times as you want, just click the restart button.
-            </p>
-            <a
-              href="https://github.com/LailaL88/tictactoe/blob/master/scripts.js"
-              ><button>View code</button></a
-            >
-          </div>
-          <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
-            <p class="projectName">Bubble Shooter</p>
-            <a href="https://lailal88.github.io/bubble/"
-              ><img src="img/bubble.png" alt="bubble shooter"
-            /></a>
-            <p class="description">
-              Shooter game against the computer. Click on the moving circle to
-              get scores. While moving the circle changes color and size. It is
-              possible to restart the game. Made with HTML, CSS and JavaScript.
-            </p>
-            <a href="https://github.com/LailaL88/bubble/blob/master/scripts.js"
-              ><button>View code</button></a
-            >
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg right columnFour" data-aos="zoom-in" data-aos-duration="800">
-            <p class="projectName">Front-end programming quiz</p>
-            <a href="https://lailal88.github.io/quiz/"
-              ><img src="img/quiz.png" alt="quiz"
-            /></a>
-            <p class="description">
-              A quiz of ten questions. Project made in React with the use of
-              state, props, conditional rendering, webpack. Without the use of
-              create-react-app.
-            </p>
-            <a class="button"
-              href="https://github.com/LailaL88/quiz/blob/master/src/Questions.js"
-              ><button>View code</button></a
-            >
-          </div>
-          <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
-            <p class="projectName">Victory restaurant</p>
-            <a href="https://lailal88.github.io/restaurant/"
-              ><img src="img/restaurant_.png" alt="quiz" class="border"
-            /></a>
-            <p class="description">
-              A website template made to practice HTML, CSS and Bootstrap.
-              Responsive.
-            </p>
-            <a
-              href="https://github.com/LailaL88/restaurant/blob/master/index.html"
-              ><button>View code</button></a
-            >
-          </div>
-          <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
-            <p class="projectName">Sparcle</p>
-            <a href="https://lailal88.github.io/sparcleheart/"
-              ><img src="img/sparcle.png" alt="sparcle"
-            /></a>
-            <p class="description">
-              A project I made during interenship - pixel-perfect website created from a Figma design file. The navbar turns into fullscreen overlay navigation on small screens.
-            </p>
-            <a
-              href="https://github.com/LailaL88/sparcleheart"
-              ><button >View code</button></a
-            >
-          </div>
-      </div>
-    </section>
-    <section class="contact">
-      <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Contact</h1>
-      <div class="container">
-        <div class="info">
-          <i class="fas fa-phone"></i>
-          <h4 class="topline">Phone</h4>
-          <h4 class="contactInfo">+371 28992137</h4>
-        </div>
-        <div class="info">
-          <i class="fas fa-envelope"></i>
-          <h4 class="topline">Email</h4>
-          <h4 class="contactInfo">olga_ze@inbox.lv</h4>
+      <p>At the moment I am doing internship as a front-end developer at Piere.lv. I am a higly motivated person,
+        capable to learn fast and on her own and with a great interest for programming. I speak, write and read in
+        English and Latvian at a high level.
+        So far I have learned HTML5, CSS3, Bootstrap, responsive design, JavaScript, SASS, Chrome developer tools,
+        Perfect Pixel, basics of React and Git version control sistem. I have experience creating pixel-perfect webpages
+        from Figma design files. Plus - I am a good person. </p>
+    </div>
+  </section>
+
+  <section class="skills">
+    <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Skills</h1>
+    <div class="container skill-container" data-aos="slide-right" data-aos-duration="2000">
+      <div class="skill">
+        <div class="skill-wrap">
+          <img src="./img/html.svg" alt="html">
+          <p class="skill-name">HTML5</p>
         </div>
       </div>
-    </section>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/61c651c0ef.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <div class="skill">
+        <div class="skill-wrap">
+          <img src="./img/css.svg" alt="css">
+          <p class="skill-name">CSS3</p>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-wrap">
+          <img src="./img/js.svg" alt="js">
+          <p class="skill-name">JavaScript</p>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-wrap">
+          <img src="./img/sass.svg" alt="sass">
+          <p class="skill-name">SASS</p>
+        </div>
+      </div>
+      <div>
+        <div class="skill-wrap">
+          <img src="./img/git.png" alt="git">
+          <p class="skill-name">Git</p>
+        </div>
+      </div>
+      <div>
+        <div class="skill-wrap">
+          <img src="./img/bootstrap.svg" alt="bootstrap">
+
+          <p class="skill-name">Bootstrap</p>
+        </div>
+      </div>
+      <div>
+        <div class="skill-wrap">
+          <img src="./img/figma.png" alt="figma">
+          <p class="skill-name">Figma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Projects</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
+          <p class="projectName">Flower shop</p>
+          <a href="https://lailal88.github.io/flowers/"><img src="img/shop.png" alt="flowershop" /></a>
+          <p class="description">
+            Webpage of a flower shop. You can sort available flowers by color
+            and type, click on the flower to see it's description and order
+            it. I used HTML and CSS for the layout and JavaScript for
+            filtering and decreasing the quantity in stock.
+          </p>
+          <a href="https://github.com/LailaL88/flowers/blob/master/scripts.js" class="button">View code</a>
+        </div>
+        <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
+          <p class="projectName">TicTacToe</p>
+          <a href="https://lailal88.github.io/tictactoe/"><img src="img/tictactoe.png" alt="tictactoe" /></a>
+          <p class="description">
+            Game that probably everyone has played at least once. Click on the
+            cell to add X or O. Made with JavaScript, HTML and CSS. You can
+            play as many times as you want, just click the restart button.
+          </p>
+          <a href="https://github.com/LailaL88/tictactoe/blob/master/scripts.js" class="button">View code</a>
+        </div>
+        <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
+          <p class="projectName">Bubble Shooter</p>
+          <a href="https://lailal88.github.io/bubble/"><img src="img/bubble.png" alt="bubble shooter" /></a>
+          <p class="description">
+            Shooter game against the computer. Click on the moving circle to
+            get scores. While moving the circle changes color and size. It is
+            possible to restart the game. Made with HTML, CSS and JavaScript.
+          </p>
+          <a href="https://github.com/LailaL88/bubble/blob/master/scripts.js" class="button">View code</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg right columnFour" data-aos="zoom-in" data-aos-duration="800">
+          <p class="projectName">Front-end programming quiz</p>
+          <a href="https://lailal88.github.io/quiz/"><img src="img/quiz.png" alt="quiz" /></a>
+          <p class="description">
+            A quiz of ten questions. Project made in React with the use of
+            state, props, conditional rendering, webpack. Without the use of
+            create-react-app.
+          </p>
+          <a href="https://github.com/LailaL88/quiz/blob/master/src/Questions.js" class="button">View code</a>
+        </div>
+        <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
+          <p class="projectName">Victory restaurant</p>
+          <a href="https://lailal88.github.io/restaurant/"><img src="img/restaurant_.png" alt="quiz"
+              class="border" /></a>
+          <p class="description">
+            A website template made to practice HTML, CSS and Bootstrap.
+            Responsive.
+          </p>
+          <a href="https://github.com/LailaL88/restaurant/blob/master/index.html" class="button">View code</a>
+        </div>
+        <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
+          <p class="projectName">Sparcle</p>
+          <a href="https://lailal88.github.io/sparcleheart/"><img src="img/sparcle.png" alt="sparcle" /></a>
+          <p class="description">
+            A project I made during interenship - pixel-perfect website created from a Figma design file. The navbar
+            turns into fullscreen overlay navigation on small screens.
+          </p>
+          <a href="https://github.com/LailaL88/sparcleheart" class="button">View code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Contact</h1>
+    <div class="container">
+      <div class="info">
+        <i class="fas fa-phone"></i>
+        <h4 class="topline">Phone</h4>
+        <h4 class="contactInfo">+371 28992137</h4>
+      </div>
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h4 class="topline">Email</h4>
+        <h4 class="contactInfo">olga_ze@inbox.lv</h4>
+      </div>
+    </div>
+  </section>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/61c651c0ef.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  </body>
+</body>
+
 </html>
