@@ -36,7 +36,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(250, 128, 114, 0.7);
+  background: rgba(250, 128, 114, 0.8);
   background-image: radial-gradient(salmon 33%, transparent 33%);
   background-size: 4px 4px;
 }
