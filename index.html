@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="format-detection" content="telephone=no" />
   <title>My portfolio</title>
-  <script type="text/javascript" src="scripts.js"></script>
+  <script type="text/javascript" src="scripts.js" defer></script>
 </head>
 
 <body>
@@ -141,19 +141,35 @@
       <div class="row">
         <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
           <p class="projectName">Sparkle</p>
-          <a href="https://lailal88.github.io/sparcleh/"><img src="img/sparcle.png" alt="sparcle" /></a>
+          <div class="overlay-container">
+            <a href="https://lailal88.github.io/sparcleh/">
+              <div class="overlay">
+                <p>Click to view project</p>
+              </div>
+            </a>
+            <a href="https://lailal88.github.io/sparcleh/"><img src="img/sparcle.png" alt="sparcle" /></a>
+          </div>
           <p class="description">
             A project I made during internship - pixel-perfect site created from a Figma design file. The navbar
             turns into fullscreen overlay navigation on small screens.
-             Contains fixed arrow icons that smoothly scroll the page UNTIL footer.
-              After making the site with HTML, CSS and JavaScript I rebuilt it as a WordPress theme using Advanced custom fields and Contact form 7 plugins.
-            In the WordPress version of the site I added some extra features like: styled the checkboxes, embedded videos, made the form display a thankyou message on submit.
+            Contains fixed arrow icons that smoothly scroll the page UNTIL footer.
+            After making the site with HTML, CSS and JavaScript I rebuilt it as a WordPress theme using Advanced custom
+            fields and Contact form 7 plugins.
+            In the WordPress version of the site I added some extra features like: styled the checkboxes, embedded
+            videos, made the form display a thankyou message on submit.
           </p>
           <a href="https://github.com/LailaL88/sparcleheart" class="button">View code</a>
         </div>
         <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
           <p class="projectName">TicTacToe</p>
-          <a href="https://lailal88.github.io/tictactoe/"><img src="img/tictactoe.png" alt="tictactoe" /></a>
+          <div class="overlay-container">
+            <a href="https://lailal88.github.io/tictactoe/">
+              <div class="overlay">
+                <p>Click to view project</p>
+              </div>
+            </a>
+            <a href="https://lailal88.github.io/tictactoe/"><img src="img/tictactoe.png" alt="tictactoe" /></a>
+          </div>
           <p class="description">
             Game that probably everyone has played at least once. Click on the
             cell to add X or O. Made with JavaScript, HTML and CSS. You can
@@ -163,7 +179,14 @@
         </div>
         <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
           <p class="projectName">Flower shop</p>
-          <a href="https://lailal88.github.io/flowers/"><img src="img/shop.png" alt="flowershop" /></a>
+          <div class="overlay-container">
+            <a href="https://lailal88.github.io/flowers/">
+              <div class="overlay">
+                <p>Click to view project</p>
+              </div>
+            </a>
+            <a href="https://lailal88.github.io/flowers/"><img src="img/shop.png" alt="flowershop" /></a>
+          </div>
           <p class="description">
             Webpage of a flower shop. You can sort available flowers by color
             and type, click on the flower to see it's description and order
@@ -176,7 +199,14 @@
       <div class="row">
         <div class="col-lg right columnFour" data-aos="zoom-in" data-aos-duration="800">
           <p class="projectName">Front-end programming quiz</p>
-          <a href="https://lailal88.github.io/quiz/"><img src="img/quiz.png" alt="quiz" /></a>
+          <div class="overlay-container">
+            <a href="https://lailal88.github.io/quiz/">
+              <div class="overlay">
+                <p>Click to view project</p>
+              </div>
+            </a>
+            <a href="https://lailal88.github.io/quiz/"><img src="img/quiz.png" alt="quiz" /></a>
+          </div>
           <p class="description">
             A quiz of ten questions. Project made in React with the use of
             state, props, conditional rendering, webpack. Without the use of
@@ -186,8 +216,15 @@
         </div>
         <div class="col-lg right" data-aos="zoom-in" data-aos-duration="800">
           <p class="projectName">Victory restaurant</p>
-          <a href="https://lailal88.github.io/restaurant/"><img src="img/restaurant_.png" alt="quiz"
-              class="border" /></a>
+          <div class="overlay-container">
+            <a href="https://lailal88.github.io/restaurant/">
+              <div class="overlay">
+                <p>Click to view project</p>
+              </div>
+            </a>
+            <a href="https://lailal88.github.io/restaurant/"><img src="img/restaurant_.png" alt="quiz"
+                class="border" /></a>
+          </div>
           <p class="description">
             A website template made to practice HTML, CSS and Bootstrap.
             Responsive.
@@ -196,7 +233,14 @@
         </div>
         <div class="col-lg thirdCol" data-aos="zoom-in" data-aos-duration="800">
           <p class="projectName">Bubble Shooter</p>
-          <a href="https://lailal88.github.io/bubble/"><img src="img/bubble.png" alt="bubble shooter" /></a>
+          <div class="overlay-container">
+            <a href="https://lailal88.github.io/bubble/">
+              <div class="overlay">
+                <p>Click to view project</p>
+              </div>
+            </a>
+            <a href="https://lailal88.github.io/bubble/"><img src="img/bubble.png" alt="bubble shooter" /></a>
+          </div>
           <p class="description">
             Shooter game against the computer. Click on the moving circle to
             get scores. While moving the circle changes color and size. It is
@@ -238,6 +282,6 @@
   <script>
     AOS.init();
   </script>
-</body>
+  </body>
 
 </html>
