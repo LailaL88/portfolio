@@ -24,16 +24,20 @@ function smoothScroll4() {
 }
 
 const overlay = document.querySelectorAll(".overlay");
+const overlayText = document.querySelectorAll(".overlay p");
 
 for (const item of overlay) {
-  item.addEventListener("mouseover", function(){
-    item.style.opacity = 0.7;
-    document.querySelector(".overlay p").style.opacity = 1;
+  item.addEventListener("mouseover", function(event){
+    item.style.backgroundColor = "rgb(" + 250 + "," + 128 + "," + 114 + "," + 0.7 + ")";
+        item.querySelector("p").style.opacity = 1;
+    
   })
   
   item.addEventListener("mouseleave", function(){
-    item.style.opacity = 0;
-    document.querySelector(".overlay p").style.opacity = 0;
+    item.style.backgroundColor = "rgb(" + 250 + "," + 128 + "," + 114 + "," + 0 + ")";
+    item.querySelector("p").style.opacity = 0;
   })
 }
+
+
 
