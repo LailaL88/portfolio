@@ -227,7 +227,7 @@ a {
   cursor: pointer;
 }
 
-.fa-github {
+.fa-github, .fa-linkedin {
   padding: 0px;
   font-size: 20px;
   margin-left: 10px;
