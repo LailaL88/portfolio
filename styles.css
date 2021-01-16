@@ -200,6 +200,7 @@ svg {
 
 .info {
   text-align: left;
+  overflow: hidden;
   background: white;
   padding: 20px;
   margin-bottom: 20px;
@@ -218,7 +219,6 @@ i {
 }
 
 .topline {
-  border-top: 1px solid black;
   font-family: "Caveat", cursive;
   font-size: 35px;
 }
@@ -303,4 +303,40 @@ a {
   font-weight: 700;
   margin:0;
   padding:0;
+}
+
+.photo {
+  position: relative;
+  width: 200px;
+  float:left;
+  padding:0 30px;
+  filter:brightness(140%);
+}
+
+.myfoto {
+  width: 30%;
+}
+
+@media only screen and (min-width:768px){
+  .photo {
+    top: -50px;
+  }
+}
+
+.details{
+  width: 70%;
+  float:right;
+  padding: 15px;
+}
+
+@media only screen and (max-width:450px){
+  .photo {
+    padding:0;
+  }
+}
+
+@media only screen and (max-width:992px){
+  .photo {
+    width:100%;
+  }
 }
