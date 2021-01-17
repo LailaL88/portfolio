@@ -215,7 +215,7 @@ i {
 
 .info h4 {
   text-align: left;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .topline {
@@ -306,37 +306,31 @@ a {
 }
 
 .photo {
-  position: relative;
   width: 200px;
-  float:left;
-  padding:0 30px;
+  padding:10px 30px;
   filter:brightness(140%);
 }
 
-.myfoto {
-  width: 30%;
-}
-
 @media only screen and (min-width:768px){
-  .photo {
-    top: -50px;
+  .contacts {
+    margin-top: -50px;
   }
 }
 
 .details{
   width: 70%;
   float:right;
-  padding: 15px;
+  padding: 10px;
 }
 
 @media only screen and (max-width:450px){
   .photo {
-    padding:0;
+    padding-left:0;
   }
 }
 
-@media only screen and (max-width:992px){
-  .photo {
-    width:100%;
-  }
+.contacts {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
