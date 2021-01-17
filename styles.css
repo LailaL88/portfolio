@@ -334,3 +334,7 @@ a {
   align-items: flex-end;
   flex-wrap: wrap;
 }
+
+.white {
+  background-color: white !important;
+}
