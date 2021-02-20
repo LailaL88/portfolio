@@ -61,6 +61,19 @@
   padding: 0px 10px;
 }
 
+.profile h1 {
+  animation-name: addSpacing;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  /* letter-spacing: normal; */
+}
+
+@keyframes addSpacing {
+  0% {letter-spacing: normal;}
+  50% {letter-spacing: 5px;}
+  100% {letter-spacing: normal;}
+}
+
 h1 {
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
