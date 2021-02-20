@@ -58,20 +58,26 @@
 .profile p,
 .profile img {
   z-index: 1;
-  padding: 0px 10px;
+  padding: 0px 10px;  
 }
 
 .profile h1 {
-  animation-name: addSpacing;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  /* letter-spacing: normal; */
+  animation: addSpacing 5s infinite alternate;
+}
+
+.break {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .break {
+    display: block;
+  }
 }
 
 @keyframes addSpacing {
-  0% {letter-spacing: normal;}
-  50% {letter-spacing: 5px;}
-  100% {letter-spacing: normal;}
+  from {letter-spacing: normal;}
+  to {letter-spacing: 5px;}
 }
 
 h1 {
