@@ -33,7 +33,7 @@
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   background-image: url("./img/keyboard.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -55,7 +55,8 @@
 }
 
 .profile h1,
-.profile p {
+.profile p,
+.profile img {
   z-index: 1;
   padding: 0px 10px;
 }
@@ -70,12 +71,12 @@ h1 {
   padding: 90px 10px 70px 10px;
 }
 
-
 .skills{
   padding-bottom: 30px;
 }
+
 .skills img {
-  height:100px;
+  height:95px;
   padding:23px;
 }
 
@@ -83,8 +84,6 @@ h1 {
   display: flex;
   align-self: flex-start;
 }
-
-
 
 .skill-container{
   display:flex;
