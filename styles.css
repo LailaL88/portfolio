@@ -198,22 +198,36 @@ svg {
   -moz-appearance: button;
   appearance: button;
   text-decoration: none;
-  width: 140px;
+  width: 80%;
   margin: 20px auto;
-  background-color: salmon;
+  background: linear-gradient(45deg, salmon, lightblue);
+  background-size: 400% 400%;
   color: white;
   outline: none;
   padding: 10px 0px;
   border: none;
   text-transform: uppercase;
   font-size: 16px;
-  border: 1px solid salmon;
+  font-weight: bold;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .button:hover {
   background-color: white;
-  color: salmon;
-  border: 1px solid salmon;
+  color: black;
+  /* border: 1px solid salmon; */
   text-decoration: none;
 }
 
