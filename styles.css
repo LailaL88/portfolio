@@ -1,4 +1,5 @@
 .navbar {
+  padding-left: 110px;
   background-color: salmon !important;
   position: fixed;
   width: 100%;
@@ -23,9 +24,37 @@
   color: white;
 }
 
+.navbar-nav .nav-item .nav-link span {
+  padding-right: 20px;
+}
+
 .navbar .navbar-toggler {
   outline: none;
   background-color: #eaf0ff;
+}
+
+.logo {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  width: 60px;
+  margin-right: 20px;
+  border: 3px solid rgb(193, 246, 255);
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    display: none;
+  }
+
+  .navbar {
+    padding-left: 30px;
+  }
+
+  .navbar-nav .nav-item .nav-link span {
+    display: none;
+  }
 }
 
 .profile {
