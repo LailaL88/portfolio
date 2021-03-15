@@ -41,6 +41,14 @@
   margin-right: 20px;
   border: 3px solid rgb(193, 246, 255);
   border-radius: 50%;
+  animation-name: scale;
+  animation-duration: 1s;
+  animation-iteration-count: 10;
+  animation-timing-function: ease-in;
+}
+
+@keyframes scale {
+  to {transform: scale(1.1);}
 }
 
 @media only screen and (max-width: 992px) {
@@ -287,9 +295,12 @@ i {
   color:rgb(193, 246, 255);
 }
 
+.contact i {
+  color:rgb(105, 180, 194);
+}
+
 .info h4 {
   text-align: left;
-  /* padding: 10px; */
 }
 
 .topline {
