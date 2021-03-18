@@ -1,10 +1,11 @@
 .navbar {
-  padding-left: 110px;
   background-color: salmon !important;
   position: fixed;
   width: 100%;
   z-index: 2;
   transition: all 0.2s ease-in-out;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 22px;
 }
 
 .navbar:hover {
@@ -76,7 +77,6 @@
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  
 }
 
 .profile:after {
@@ -120,9 +120,14 @@
 }
 
 h1 {
-  font-family: "Julius Sans One", sans-serif;
-  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   text-align: center;
+}
+
+.profile h1 {
+  font-weight: bold;
 }
 
 .about h1, .skills h1{
