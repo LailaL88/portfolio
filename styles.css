@@ -266,8 +266,6 @@ svg {
   text-decoration: none;
   width: 80%;
   margin: 20px auto;
-  background: linear-gradient(45deg, salmon, lightblue);
-  background-size: 400% 400%;
   color: white;
   outline: none;
   padding: 10px 0px;
@@ -275,26 +273,18 @@ svg {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
-  animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  background: salmon;
 }
 
 .button:hover {
-  background-color: white;
-  color: black;
-  /* border: 1px solid salmon; */
+  background-color: rgb(255, 109, 93);
+  color: white;
   text-decoration: none;
+  animation:pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+  to { box-shadow:0px 0px 20px 5px rgb(255, 109, 93); }
 }
 
 .contact {
