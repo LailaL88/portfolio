@@ -97,7 +97,8 @@
 .profile p,
 .profile img {
   z-index: 1;
-  padding: 0px 10px;  
+  padding: 0px 10px; 
+  text-align: center; 
 }
 
 .profile h1 {
@@ -146,6 +147,7 @@ h1 {
 .skill{
   display: flex;
   align-self: flex-start;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .skill-container{
@@ -450,4 +452,10 @@ a {
 
 .white {
   background-color: white !important;
+}
+
+@media only screen and (max-width: 767px){
+  .scroll-indicator-controller {
+    display: none;
+  }
 }

@@ -39,5 +39,13 @@ for (const item of overlay) {
   })
 }
 
+easyScrollDots({
+  'fixedNav': true,
+  'fixedNavId': 'bootstrap-nav',
+  'fixedNavUpward': false,
+  'offset': 0
+});
+  
+
 
 
