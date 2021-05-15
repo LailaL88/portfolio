@@ -244,6 +244,13 @@ svg {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 600px) {
+  .projects .col-lg {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
 .right {
   margin-right: 20px;
 }
