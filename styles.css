@@ -135,8 +135,38 @@ h1 {
   padding: 90px 10px 70px 10px;
 }
 
-.skills{
+.skill-container{
   padding-bottom: 30px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.skill{
+  float: left;
+  width: 120px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1300px) {
+  .skill-container {
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .skill-container {
+    width: 640px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .skill-container {
+    width: 90%;
+  }
+
+  .skill {
+    width: 33%;
+  }
 }
 
 .skills img {
@@ -144,16 +174,24 @@ h1 {
   padding:23px;
 }
 
-.skill{
-  display: flex;
-  align-self: flex-start;
-  font-family: 'Rajdhani', sans-serif;
+
+
+.bem {
+  height: 113px;
+}
+
+.bem img{
+  width: 90px;
+  height: auto !important;
+  padding: 3px !important;
+  margin-top: 20px;
+  margin-bottom: 23px;
 }
 
 .skill-container{
-  display:flex;
+  /* display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 .skill-name{
@@ -179,30 +217,6 @@ h1 {
     from {transform:rotate(0deg);}
     to {transform:rotate(360deg);}
 }
-
-@media only screen and (max-width: 550px){
-  .skill{
-    width: 33.3%;
-    height: 150px;
-    margin-top: 20px;
-  }
-
-  .skill img{
-    width: 100%;
-    height: auto;
-  }
-
-  .skill-wrap {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-}
-
-/* .middle {
-  align-self: center;
-} */
-
 
 p {
   font-family: "Caveat", cursive;
@@ -231,6 +245,7 @@ svg {
 }
 
 .projects {
+  clear:both;
   text-align: center;
   padding-bottom: 150px;
   position: relative;
