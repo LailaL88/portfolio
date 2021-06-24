@@ -481,3 +481,8 @@ a {
     display: none;
   }
 }
+
+.scroll-home {
+  position: absolute;
+  top: 0;
+}
