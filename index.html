@@ -33,18 +33,18 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" onclick="smoothScroll()">Home</a>
+          <a class="nav-link" onclick="smoothScroll()" onkeydown="return event.keyCode != 13 || smoothScroll()" tabindex="0">Home</a>
         <li class="nav-item">
-          <a class="nav-link" onclick="smoothScroll3()">About me</a>
+          <a class="nav-link" onclick="smoothScroll3()" onkeydown="return event.keyCode != 13 || smoothScroll3()" tabindex="0">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" onclick="smoothScroll4()">Skills</a>
+          <a class="nav-link" onclick="smoothScroll4()" onkeydown="return event.keyCode != 13 || smoothScroll4()" tabindex="0">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" onclick="smoothScroll1()">Projects</a>
+          <a class="nav-link" onclick="smoothScroll1()" onkeydown="return event.keyCode != 13 || smoothScroll1()" tabindex="0">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" onclick="smoothScroll2()">Contact</a>
+          <a class="nav-link" onclick="smoothScroll2()" onkeydown="return event.keyCode != 13 || smoothScroll2()" tabindex="0">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/LailaL88?tab=repositories">Github<i
@@ -63,7 +63,7 @@
       <div class="scroll-indicator" id="profile" data-scroll-indicator-title="Home"></div>
     </div>
     <h1>Hello, my <br class="break"> name is Olga</h1>
-    <p>This is my WEB developer portfolio</p>
+    <p>This is my front-end developer portfolio</p>
     <div>
       <svg onclick="smoothScroll3()" class="bi bi-chevron-double-down" width="1em" height="1em" viewBox="0 0 16 16"
         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -104,67 +104,67 @@
     <div class="skill-container">
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/html.svg" alt="html">
+          <img src="./img/html.svg" alt="html logo">
           <p class="skill-name">HTML5</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/css.svg" alt="css">
+          <img src="./img/css.svg" alt="css logo">
           <p class="skill-name">CSS3</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/js.svg" alt="js">
+          <img src="./img/js.svg" alt="js logo">
           <p class="skill-name">JavaScript</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/sass.svg" alt="sass">
+          <img src="./img/sass.svg" alt="sass logo">
           <p class="skill-name">SASS</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/git.png" alt="git">
+          <img src="./img/git.png" alt="git logo">
           <p class="skill-name">Git</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/bootstrap.svg" alt="bootstrap">
+          <img src="./img/bootstrap.svg" alt="bootstrap logo">
           <p class="skill-name">Bootstrap</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/figma.png" alt="figma">
+          <img src="./img/figma.png" alt="figma logo">
           <p class="skill-name">Figma</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/WordPress.png" alt="wordpress">
+          <img src="./img/WordPress.png" alt="wordpress logo">
           <p class="skill-name">WordPress</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/pixelperfect.jpg" alt="pixel-perfect">
+          <img src="./img/pixelperfect.jpg" alt="pixel-perfect logo">
           <p class="skill-name">Pixel Perfect</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/php.png" alt="pixel-perfect">
+          <img src="./img/php.png" alt="php logo">
           <p class="skill-name">PHP</p>
         </div>
       </div>
       <div class="skill">
         <div class="skill-wrap">
-          <img src="./img/mysql.png" alt="pixel-perfect">
+          <img src="./img/mysql.png" alt="mysql logo">
           <p class="skill-name">MySql</p>
         </div>
       </div>
@@ -176,7 +176,7 @@
       </div>
       <div class="skill">
         <div class="skill-wrap bem">
-          <img src="./img/bem_methodology.jpg" alt="BEM">
+          <img src="./img/bem_methodology.jpg" alt="BEM logo">
           <p class="skill-name">BEM</p>
         </div>
       </div>
@@ -198,7 +198,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="http://sparkleheartwp.epizy.com/"><img src="img/sparkleheart.jpg" alt="sparcle" /></a>
+            <a href="http://sparkleheartwp.epizy.com/"><img src="img/sparkleheart.jpg" alt="sparkleheart website screenshot" /></a>
           </div>
           <p class="description">
             A project I did during internship - pixel-perfect website created from a Figma design file. The navbar
@@ -219,7 +219,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="https://newslettertask.000webhostapp.com/index.php?page=index"><img src="img/pineapple.jpg" alt="newsletter" /></a>
+            <a href="https://newslettertask.000webhostapp.com/index.php?page=index"><img src="img/pineapple.jpg" alt="newsletter website screenshot" /></a>
           </div>
           <p class="description">
             HTML, CSS, JavaScript, PHP and Mysql project, that represents an example of subscription to a newsletter.
@@ -250,7 +250,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="http://rhymepoetik.com/"><img src="img/poetik.jpg" alt="poetik" /></a>
+            <a href="http://rhymepoetik.com/"><img src="img/poetik.jpg" alt="poetik website screenshot" /></a>
           </div>
           <p class="description">
             A musician's website. The project is built in WordPress by making a custom theme from scratch. Uses BEM methodology.
@@ -272,7 +272,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="https://lailal88.github.io/tictactoe/"><img src="img/tictactoe.jpg" alt="tictactoe" /></a>
+            <a href="https://lailal88.github.io/tictactoe/"><img src="img/tictactoe.jpg" alt="tictactoe game screenshot" /></a>
           </div>
           <p class="description">
             Game that probably everyone has played at least once. Click on the
@@ -289,7 +289,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="https://lailal88.github.io/restaurant/"><img src="img/restaurantjpg.jpg" alt="quiz"
+            <a href="https://lailal88.github.io/restaurant/"><img src="img/restaurantjpg.jpg" alt="restaurant website screenshot"
                 class="border" /></a>
           </div>
           <p class="description">
@@ -306,7 +306,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="https://lailal88.github.io/bubble/"><img src="img/bubble.jpg" alt="bubble shooter" /></a>
+            <a href="https://lailal88.github.io/bubble/"><img src="img/bubble.jpg" alt="bubble shooter game screenshot" /></a>
           </div>
           <p class="description">
             Shooter game against the computer. Click on the moving circle to
@@ -326,7 +326,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="https://lailal88.github.io/flowers/"><img src="img/flowers.jpg" alt="flowershop" /></a>
+            <a href="https://lailal88.github.io/flowers/"><img src="img/flowers.jpg" alt="flowershop website screenshot" /></a>
           </div>
           <p class="description">
             Webpage of a flower shop. You can sort available flowers by color
@@ -344,7 +344,7 @@
                 <p>Click to view project</p>
               </div>
             </a>
-            <a href="https://lailal88.github.io/quiz/"><img src="img/quiz.jpg" alt="quiz" /></a>
+            <a href="https://lailal88.github.io/quiz/"><img src="img/quiz.jpg" alt="quiz website screenshot" /></a>
           </div>
           <p class="description">
             A quiz of ten questions. Project made in React with the use of

@@ -25,6 +25,10 @@
   color: white;
 }
 
+.navbar-nav .nav-item .nav-link:focus {
+  color: rgb(193, 246, 255);
+}
+
 .navbar-nav .nav-item .nav-link span {
   padding-right: 20px;
 }
@@ -131,18 +135,25 @@ h1 {
   font-weight: bold;
 }
 
+.profile p {
+  font-size: 30px;
+}
+
 .about h1, .skills h1{
   padding: 90px 10px 70px 10px;
 }
 
 .skill-container{
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding-bottom: 30px;
   width: 1000px;
   margin: 0 auto;
 }
 
 .skill{
-  float: left;
   width: 120px;
   text-align: center;
 }
@@ -174,8 +185,6 @@ h1 {
   padding:23px;
 }
 
-
-
 .bem {
   height: 113px;
 }
@@ -186,12 +195,6 @@ h1 {
   padding: 3px !important;
   margin-top: 20px;
   margin-bottom: 23px;
-}
-
-.skill-container{
-  /* display:flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
 }
 
 .skill-name{
@@ -245,7 +248,6 @@ svg {
 }
 
 .projects {
-  clear:both;
   text-align: center;
   padding-bottom: 150px;
   position: relative;
@@ -293,14 +295,13 @@ svg {
   background: linear-gradient(45deg, salmon, lightblue);
   background-size: 400% 400%;
   color: white;
-  outline: none;
   padding: 10px 0px;
   border: none;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
   animation: gradient 15s ease infinite;
-  
+
 }
 
 @keyframes gradient {
