@@ -26,11 +26,10 @@ function smoothScroll4() {
 const overlay = document.querySelectorAll(".overlay");
 const overlayText = document.querySelectorAll(".overlay p");
 
-for (const item of overlay) {
+for (let item of overlay) {
   item.addEventListener("mouseover", function(){
     item.style.backgroundColor = "rgb(" + 250 + "," + 128 + "," + 114 + "," + 0.7 + ")";
-        item.querySelector("p").style.opacity = 1;
-    
+        item.querySelector("p").style.opacity = 1;   
   })
   
   item.addEventListener("mouseleave", function(){

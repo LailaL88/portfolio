@@ -290,6 +290,7 @@ svg {
   -moz-appearance: button;
   appearance: button;
   text-decoration: none;
+  display: block;
   width: 80%;
   margin: 20px auto;
   background: linear-gradient(45deg, salmon, lightblue);
@@ -487,3 +488,5 @@ a {
   position: absolute;
   top: 0;
 }
+
+
